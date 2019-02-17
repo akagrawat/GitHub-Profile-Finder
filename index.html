@@ -125,6 +125,7 @@
 
         </div>
     
+        <!-- Image Validator-->
         <div class="col-md-6" style="padding-left:0">
   
           <div class="view">
@@ -155,15 +156,16 @@
       <!-- Subtitle -->
       <h6 class="font-weight-bold indigo-text py-2">Web developer</h6>
       <!-- Text -->
-      <p class="card-text">Please the upload image exactly 600px !
+      <p class="card-text">Please upload a image !
       </p>
+
       <div class="container text-center" style="margin-left:10%">
-      <form class="form-inline md-form mr-auto mb-4 ">
-          <input class="form-control mr-sm-2" id="search"
-           type="text" placeholder="Upload a image" aria-label="Search" style="color:white">
-          <button class="btn purple-gradient btn-rounded btn-sm my-0 searchButton" type="button">Submit</button>
+        <form class="form-inline md-form mr-auto mb-4">
+            
+        <input type="file" id="userFile" onchange="return validateImage(event) ">
+         
         </form>
-      </div>
+        </div>
       
   
     </div>
