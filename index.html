@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -9,19 +8,18 @@
 
   <link rel="icon" type="image/png" href="images/logo1.png">
   <!-- Font Awesome -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
-<!-- Bootstrap core CSS -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet">
-<!-- Material Design Bootstrap -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.1/css/mdb.min.css" rel="stylesheet">
-<!-- Custom style sheet-->
-<link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.1/css/mdb.min.css" rel="stylesheet">
+  <!-- Custom style sheet-->
+  <link href="css/style.css" rel="stylesheet">
 </head>
-
 <body>
 
-<!-- Main navigation -->
-<header>
+  <!-- Main navigation -->
+  <header>
 
     <!--Navbar -->
     <nav class="navbar navbar-expand-lg scrolling-navbar navbar-dark z-depth-0 fixed-top">
@@ -68,138 +66,123 @@
       </div>
     </nav>
     <!--/.Navbar -->
-  
-   
+
+
+    <!-- GitHub Profile Finder -->
     <section class="view">
-  
-      <div class="row">
+    <div class="row">
 
-  
         <div class="col-md-6 viewx">
-                <div class="container text-center white-text wow fadeInUp">
-                        <span style="display:inline-block">
-                          <img src="images/logo1.png" class="img-fluid" alt="Git Logo" style="width:200px; padding-top: 50px">
-                        </span>
-                        <span>
-                          <h1 style="font-size: 90px;
+          <div class="container text-center white-text wow fadeInUp">
+            <span style="display:inline-block">
+              <img src="images/logo1.png" class="img-fluid" alt="Git Logo" style="width:200px; padding-top: 50px">
+            </span>
+            <span>
+              <h1 style="font-size: 90px;
                           font-weight: 500;">GitHub</h1>
-                        </span> 
-                          <h2>Profile Finder</h2>
-                        <br>
-                        <p>Check out the user info , repos, followers and more,</p>
-                        <p>Just by entering a username </p>
-                      <span style="display:inline-block">
-                      <form class="form-inline md-form mr-auto mb-4">
-                        <input class="form-control mr-sm-2" id="search"
-                         type="text" placeholder="Enter a username" aria-label="Search" style="color:white">
-                        <button class="btn peach-gradient btn-rounded btn-sm my-0 searchButton" type="button">Search</button>
-                      </form>
-                    </span>
-</div>     
+            </span>
+            <h2>Profile Finder</h2>
+            <br>
+            <p>Check out the user info , repos, followers and more,</p>
+            <p>Just by entering a username </p>
+            <span style="display:inline-block">
+              <form class="form-inline md-form mr-auto mb-4">
+                <input class="form-control mr-sm-2" id="search" type="text" placeholder="Enter a username" aria-label="Search"
+                  style="color:white">
+                <button class="btn peach-gradient btn-rounded btn-sm my-0 searchButton" type="button">Search</button>
+              </form>
+            </span>
+          </div>
 
+          <div class="container" id="show" style="visibility: hidden">
+            <!-- Card -->
+            <div class="card card-image" style="background:transparent">
 
+              <!-- Content -->
+              <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
+                <div>
+                  <h5 class="pink-text profile"></h5>
+                  <h3 class="card-title pt-2 main__profile-name"><strong></strong></h3>
+                  <p class="main__profile-bio"></p>
 
-<div class="container" id="show" style="visibility: hidden">
-<!-- Card -->
-<div class="card card-image" style="background:transparent">
+                  <p class="main__profile-repos pbutton"></p>
+                  <p class="main__profile-followers pbutton"></p>
+                  <p class="main__profile-follow pbutton"></p>
+                  <p class="main__profile-view"></p>
 
-  <!-- Content -->
-  <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
-    <div>
-      <h5 class="pink-text profile"></h5>
-      <h3 class="card-title pt-2 main__profile-name"><strong></strong></h3>
-      <p class="main__profile-bio"></p>
-      
-      <p class="main__profile-repos pbutton"></p>
-      <p class="main__profile-followers pbutton"></p>
-      <p class="main__profile-follow pbutton"></p>
-      <p class="main__profile-view"></p>
-      
-    </div>
-  </div>
+                </div>
+              </div>
 
-</div>
-<!-- Card -->
+            </div>
+            <!-- Card -->
 
-</div>
+          </div>
 
         </div>
-    
+
+        <!-- /GitHub Profile Finder-->
+
         <!-- Image Validator-->
         <div class="col-md-6" style="padding-left:0">
-  
           <div class="view">
             <img src="./images/img2.jpeg" class="img-fluid" alt="smaple image">
             <div class="mask hm-gradient text-center">
-                 
- 
-              
 
-<!-- Card Regular -->
-<div class="container cardx">
+              <!-- Card Regular -->
+              <div class="container cardx">
+                <div class="card card-cascade">
+                  <!-- Card image -->
+                  <div class="view view-cascade overlay">
+                    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/men.jpg" alt="Card image cap">
+                    <a>
+                      <div class="mask rgba-white-slight"></div>
+                    </a>
+                  </div>
+                  <!-- Card content -->
+                  <div class="card-body card-body-cascade text-center">
+                    <!-- Title -->
+                    <h4 class="card-title"><strong>Image Validator</strong></h4>
+                    <!-- Subtitle -->
+                    <h6 class="font-weight-bold indigo-text py-2">Web developer</h6>
+                    <!-- Text -->
+                    <p class="card-text">Please upload a image !
+                    </p>
+                    <div class="container text-center" style="margin-left:10%">
+                      <form class="form-inline md-form mr-auto mb-4">
+                        <input type="file" id="userFile" onchange="return validateImage(event) ">
+                      </form>
+                    </div>
 
-<div class="card card-cascade">
+                  </div>
 
-    <!-- Card image -->
-    <div class="view view-cascade overlay">
-      <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/men.jpg" alt="Card image cap">
-      <a>
-        <div class="mask rgba-white-slight"></div>
-      </a>
-    </div>
-  
-    <!-- Card content -->
-    <div class="card-body card-body-cascade text-center">
-  
-      <!-- Title -->
-      <h4 class="card-title"><strong>Image Validator</strong></h4>
-      <!-- Subtitle -->
-      <h6 class="font-weight-bold indigo-text py-2">Web developer</h6>
-      <!-- Text -->
-      <p class="card-text">Please upload a image !
-      </p>
+                </div>
+                <!-- Card Regular -->
 
-      <div class="container text-center" style="margin-left:10%">
-        <form class="form-inline md-form mr-auto mb-4">
-            
-        <input type="file" id="userFile" onchange="return validateImage(event) ">
-         
-        </form>
-        </div>
-      
-  
-    </div>
-  
-  </div>
-  <!-- Card Regular -->
-
-</div>
-  
-
-
-        
+              </div>
             </div>
           </div>
-  
+
         </div>
-  
+        <!-- /Image Validator-->
+
       </div>
-  
+
+
     </section>
-   
-  
+
   </header>
   <!-- Main navigation -->
 
- <!-- Custom Script-->
- <script type="text/javascript" src="js/main.js"></script>
+  <!-- Custom Script-->
+  <script type="text/javascript" src="js/main.js"></script>
   <!-- JQuery -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<!-- Bootstrap tooltips -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
-<!-- Bootstrap core JavaScript -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script>
-<!-- MDB core JavaScript -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.1/js/mdb.min.js"></script>
-  </body>
-  </html>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.1/js/mdb.min.js"></script>
+</body>
+
+</html>

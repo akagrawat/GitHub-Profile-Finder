@@ -48,7 +48,7 @@ x.style.visibility = "visible"
 proContainer.innerHTML =`<i class="fas fa-chart-pie"></i>Profile`;
 });
 
-/* ! Github */
+/* / Github */
 
 
 /* Image Validator */
