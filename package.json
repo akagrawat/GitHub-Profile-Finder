@@ -11,7 +11,7 @@
   "author": "Ashish Agrawat",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.4.0"
+    "lite-server": "^2.6.1"
   },
   "dependencies": {
     "mdbootstrap": "^4.7.1"
